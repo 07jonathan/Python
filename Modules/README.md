@@ -1,0 +1,2 @@
+- mymodule.py: Ini adalah modul yang berisi fungsi, variabel, dan definisi lain yang dapat diimpor dan digunakan di program lain.
+- use_mymodule.py: Ini adalah contoh skrip yang mengimpor modul mymodule dan menggunakannya untuk mencetak pesan, mengakses variabel, dan menggunakan fungsi.

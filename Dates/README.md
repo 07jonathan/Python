@@ -1,0 +1,8 @@
+- Mengimpor datetime Module: Program mengimpor modul datetime untuk bekerja dengan tanggal dan waktu.
+- Mendapatkan Tanggal dan Waktu Saat Ini: datetime.datetime.now() memberikan informasi tanggal dan waktu saat ini.
+- Mengambil Komponen Tanggal dan Waktu: Menyertakan tahun dan nama hari lengkap dari current_datetime.
+- Membuat Objek Tanggal Tertentu: datetime.datetime(2020, 5, 17) menciptakan objek tanggal tertentu.
+- Format Tanggal: strftime() digunakan untuk membuat format tanggal yang diinginkan.
+- Menampilkan Informasi Zona Waktu: Menampilkan offset dan nama zona waktu menggunakan format khusus.
+- ISO 8601 Date Formatting: Menampilkan tahun ISO 8601 dan nomor hari ISO 8601.
+- Format Waktu Lengkap: Menampilkan format tanggal dan waktu secara lengkap.

@@ -1,0 +1,2 @@
+1. Contoh 1 menunjukkan penggunaan f-strings untuk memformat harga dengan 2 desimal, menampilkan harga dengan operasi matematika, dan menampilkan status harga dengan kondisi if-else.
+2. Contoh 2 menunjukkan penggunaan metode format() untuk memformat harga dengan 2 desimal, menampilkan harga dengan operasi matematika, dan menampilkan status harga dengan kondisi if-else.
