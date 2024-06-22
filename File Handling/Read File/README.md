@@ -1,7 +1,6 @@
-Penjelasan Program:
-  - Contoh 1: Menangani error ketika variabel x tidak didefinisikan menggunakan blok try-except
-  - Contoh 2: Menggunakan except dengan jenis error tertentu (NameError) serta menangani error lainnya dengan except tanpa argumen.
-  - Contoh 3: Menangani blok try tanpa error menggunakan else.
-  - Contoh 4: Menggunakan blok finally untuk memastikan kode eksekusi dijalankan tanpa peduli apakah error terjadi atau tidak.
-  -Contoh 5: Menciptakan dan menangani error Exception jika x memiliki nilai di bawah nol.
-  -Contoh 6: Menangani error TypeError jika variabel x bukan tipe integer.
+Penjelasan Fungsi-Fungsi:
+1. read_entire_file(): Membuka file dalam mode baca, membaca seluruh isi file, mencetaknya, dan kemudian menutup file.
+2. read_first_5_characters(): Membuka file dalam mode baca, membaca 5 karakter pertama, mencetaknya, dan kemudian menutup file.
+3. read_first_line(): Membuka file dalam mode baca, membaca satu baris, mencetaknya, dan kemudian menutup file.
+4. read_first_two_lines(): Membuka file dalam mode baca, membaca dua baris pertama, mencetaknya, dan kemudian menutup file.
+5. loop_through_file(): Membuka file dalam mode baca, melakukan loop melalui setiap baris dalam file, mencetak setiap baris, dan kemudian menutup file.
