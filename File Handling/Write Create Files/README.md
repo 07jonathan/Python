@@ -1,7 +1,4 @@
-Penjelasan Program:
-  - Contoh 1: Menangani error ketika variabel x tidak didefinisikan menggunakan blok try-except
-  - Contoh 2: Menggunakan except dengan jenis error tertentu (NameError) serta menangani error lainnya dengan except tanpa argumen.
-  - Contoh 3: Menangani blok try tanpa error menggunakan else.
-  - Contoh 4: Menggunakan blok finally untuk memastikan kode eksekusi dijalankan tanpa peduli apakah error terjadi atau tidak.
-  -Contoh 5: Menciptakan dan menangani error Exception jika x memiliki nilai di bawah nol.
-  -Contoh 6: Menangani error TypeError jika variabel x bukan tipe integer.
+Penjelasan Singkat
+1. write_to_existing_file(): Fungsi ini membuka file "demofile2.txt" dalam mode "a" (Append), menambahkan konten baru, dan kemudian membuka kembali file untuk memverifikasi bahwa konten telah ditambahkan.
+2. overwrite_existing_file(): Fungsi ini membuka file "demofile3.txt" dalam mode "w" (Write), menulis konten baru yang akan menimpa isi yang ada sebelumnya, dan kemudian membuka kembali file untuk memverifikasi bahwa konten telah ditimpa.
+3. create_new_file(): Fungsi ini mencoba membuka file "myfile.txt" dalam mode "x" (Create). Jika file belum ada, file kosong baru akan dibuat. Jika file sudah ada, pesan bahwa file sudah ada akan ditampilkan.
