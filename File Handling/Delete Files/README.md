@@ -1,10 +1,10 @@
 Penjelasan Program:
 1. Fungsi delete_file:
-  - Menerima file_path sebagai parameter.
-  - Memeriksa apakah file tersebut ada dengan menggunakan os.path.exists(file_path).
-  - Jika file ada, os.remove(file_path) akan menghapus file tersebut.
-  - Jika terjadi OSError, pesan kesalahan akan ditampilkan.
-  - Jika file tidak ada, pesan akan mencetak bahwa file tidak ditemukan.
+   - Menerima file_path sebagai parameter.
+   - Memeriksa apakah file tersebut ada dengan menggunakan os.path.exists(file_path).
+   - Jika file ada, os.remove(file_path) akan menghapus file tersebut.
+   - Jika terjadi OSError, pesan kesalahan akan ditampilkan.
+   - Jika file tidak ada, pesan akan mencetak bahwa file tidak ditemukan.
 
 2. Fungsi delete_folder:
    - Menerima folder_path sebagai parameter.
