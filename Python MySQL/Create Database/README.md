@@ -1,18 +1,13 @@
 Penjelasan Program:
- 1. Import Libraries: Mengimpor matplotlib.pyplot untuk plotting dan numpy untuk menghasilkan array data.
- 2. Data: Mendefinisikan array categories sebagai label sumbu X dan values sebagai nilai untuk sumbu Y.
- 3. Grafik Batang Vertikal:
-    - Menggunakan plt.bar() untuk membuat grafik batang vertikal.
-    - color="skyblue" digunakan untuk mengatur warna batang.
-    - width=0.5 mengatur lebar batang (opsional).
-    - xlabel(), ylabel(), dan title() digunakan untuk memberi label sumbu X, Y, dan judul grafik.
-    - grid(True) untuk menampilkan garis grid pada grafik (opsional).
- 4. Grafik Batang Horizontal:
-    - Menggunakan plt.barh() untuk membuat grafik batang horizontal.
-    - color="lightgreen" digunakan untuk mengatur warna batang.
-    - height=0.5 mengatur tinggi batang (opsional).
-    - xlabel(), ylabel(), dan title() untuk memberi label sumbu X, Y, dan judul grafik.
-    - grid(True) untuk menampilkan garis grid pada grafik (opsional).
 
-Catatan Tambahan:
-    - Pastikan Anda telah menginstal Matplotlib (pip install matplotlib) sebelum menjalankan program ini. Anda dapat menyesuaikan warna, lebar, dan tinggi batang sesuai kebutuhan dengan mengubah nilai parameter yang diberikan pada fungsi plt.bar() dan plt.barh(). plt.figure(figsize=(8, 6)) digunakan untuk mengatur ukuran gambar grafik (opsional), disesuaikan dengan preferensi Anda.
+    Fungsi create_database(): Membuat koneksi ke server MySQL menggunakan mysql.connector.connect(), kemudian mengeksekusi perintah SQL "CREATE DATABASE mydatabase" untuk membuat database baru bernama mydatabase. Jika berhasil, akan mencetak pesan sukses, jika tidak, akan menangkap dan mencetak error yang terjadi.
+
+    Fungsi show_databases(): Mengeksekusi perintah SQL "SHOW DATABASES" untuk mendapatkan daftar semua database yang ada di server MySQL. Menggunakan cursor untuk iterasi dan mencetak nama setiap database.
+
+    Fungsi check_database_exists(database_name): Mencoba untuk terhubung ke database dengan nama yang diberikan (database_name). Jika berhasil terhubung, mencetak pesan bahwa database ditemukan. Jika tidak, menangkap dan mencetak error yang terjadi.
+
+Catatan Penting:
+
+    Pastikan untuk mengganti "yourusername" dan "yourpassword" dengan informasi login MySQL Anda yang sesungguhnya.
+    Program ini asumsikan Anda sudah memiliki server MySQL berjalan di localhost. Sesuaikan dengan host MySQL Anda jika berbeda.
+    Pastikan MySQL server Anda berjalan dan dapat diakses dari Python menggunakan mysql-connector-python.
