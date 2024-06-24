@@ -1,0 +1,16 @@
+Penjelasan Program:
+
+    Import Libraries: Mengimport matplotlib.pyplot untuk visualisasi dan KNeighborsClassifier dari sklearn.neighbors untuk implementasi KNN.
+
+    Data Preparation: Mendefinisikan data yang diberikan berupa nilai x, y, dan kelas classes.
+
+    Visualisasi Data: Memvisualisasikan data menggunakan scatter plot dengan warna yang berbeda untuk masing-masing kelas.
+
+    Fungsi predict_and_visualize:
+        Menerima parameter k yang menentukan jumlah tetangga terdekat untuk KNN.
+        Membuat objek KNeighborsClassifier dengan nilai k yang diberikan.
+        Melatih model KNN menggunakan data dan classes.
+        Memperkirakan kelas untuk titik data baru yang ditentukan (new_x, new_y).
+        Mencetak hasil prediksi dan memvisualisasikan titik data baru bersama dengan titik-titik data yang ada.
+
+    Pengujian: Memanggil fungsi predict_and_visualize untuk K=1 dan K=5 untuk membandingkan hasil prediksi dengan jumlah tetangga yang berbeda.
