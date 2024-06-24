@@ -1,21 +1,16 @@
 Penjelasan Program:
-
-    Import Libraries:
-        import numpy as np: Mengimport NumPy dengan alias np.
-        import matplotlib.pyplot as plt: Mengimport modul pyplot dari Matplotlib dengan alias plt, digunakan untuk membuat plot.
-
-    Generate Small Dataset:
-        x_small = np.random.uniform(0.0, 5.0, 250): Membuat array x_small yang berisi 250 bilangan acak yang terdistribusi secara seragam antara 0 dan 5.
-
-    Plot Histogram for Small Dataset:
-        plt.hist(x_small, bins=5, edgecolor='black'): Membuat histogram dari data x_small dengan menggunakan 5 bins.
-        plt.title, plt.xlabel, plt.ylabel, dan plt.grid(True): Menambahkan judul, label sumbu, dan grid pada plot histogram.
-        plt.show(): Menampilkan plot histogram.
-
-    Generate Large Dataset:
-        x_large = np.random.uniform(0.0, 5.0, 100000): Membuat array x_large yang berisi 100,000 bilangan acak yang terdistribusi secara seragam antara 0 dan 5.
-
-    Plot Histogram for Large Dataset:
-        plt.hist(x_large, bins=100, edgecolor='black'): Membuat histogram dari data x_large dengan menggunakan 100 bins.
-        plt.title, plt.xlabel, plt.ylabel, dan plt.grid(True): Menambahkan judul, label sumbu, dan grid pada plot histogram.
-        plt.show(): Menampilkan plot histogram.
+- Import Libraries:
+  - import numpy as np: Mengimport NumPy dengan alias np.
+  - import matplotlib.pyplot as plt: Mengimport modul pyplot dari Matplotlib dengan alias plt, digunakan untuk membuat plot.
+- Generate Small Dataset:
+  - x_small = np.random.uniform(0.0, 5.0, 250): Membuat array x_small yang berisi 250 bilangan acak yang terdistribusi secara seragam antara 0 dan 5.
+- Plot Histogram for Small Dataset:
+  - plt.hist(x_small, bins=5, edgecolor='black'): Membuat histogram dari data x_small dengan menggunakan 5 bins.
+  - plt.title, plt.xlabel, plt.ylabel, dan plt.grid(True): Menambahkan judul, label sumbu, dan grid pada plot histogram.
+  - plt.show(): Menampilkan plot histogram.
+- Generate Large Dataset:
+  - x_large = np.random.uniform(0.0, 5.0, 100000): Membuat array x_large yang berisi 100,000 bilangan acak yang terdistribusi secara seragam antara 0 dan 5.
+- Plot Histogram for Large Dataset:
+  - plt.hist(x_large, bins=100, edgecolor='black'): Membuat histogram dari data x_large dengan menggunakan 100 bins.
+  - plt.title, plt.xlabel, plt.ylabel, dan plt.grid(True): Menambahkan judul, label sumbu, dan grid pada plot histogram.
+  - plt.show(): Menampilkan plot histogram.
